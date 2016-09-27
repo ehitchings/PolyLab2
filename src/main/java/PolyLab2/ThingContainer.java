@@ -7,28 +7,28 @@ import java.util.Arrays;
  */
 public class ThingContainer {
 
-    private ColorfulThing[] colorfulThings;
+    private Thing[] things;
 
 
-    public ThingContainer(int colorfulThingArraySize){
-        this.colorfulThings = new ColorfulThing[colorfulThingArraySize];
+    public ThingContainer(int thingArraySize){
+        this.things = new Thing[thingArraySize];
     }
 
-    public ThingContainer(ColorfulThing[] colorfulThingArray){
-        this.colorfulThings = new ColorfulThing[colorfulThingArray.length];
-        for(ColorfulThing colorfulThing : colorfulThingArray){
-            this.add(colorfulThing);
+    public ThingContainer(Thing[] thingArray){
+        this.things = new Thing[thingArray.length];
+        for(Thing thing : thingArray){
+            this.add(thing);
         }
     }
 
-    public ColorfulThing[] getColorfulThings() {
-        return colorfulThings;
+    public Thing[] getThings() {
+        return things;
     }
 
-    public void add(ColorfulThing colorfulThing){
-        for(int i = 0; i < colorfulThings.length; i++){
-            if(colorfulThings[i] == null){
-                colorfulThings[i] = colorfulThing;
+    public void add(Thing thing){
+        for(int i = 0; i < things.length; i++){
+            if(things[i] == null){
+                things[i] = thing;
                 return;
             }
         }
@@ -37,14 +37,14 @@ public class ThingContainer {
     }
 
     public void printThings(){
-        System.out.println(Arrays.toString(this.getColorfulThings()));
+        System.out.println(Arrays.toString(this.getThings()));
     }
 
     public ColorfulThing pop(){
-        for (int i = colorfulThings.length - 1; i >= 0; i--){
-            if (colorfulThings[i] != null){
-                ColorfulThing toReturn = colorfulThings[i];
-                colorfulThings[i] = null;
+        for (int i = things.length - 1; i >= 0; i--){
+            if (things[i] != null){
+                ColorfulThing toReturn = (ColorfulThing)things[i];
+                things[i] = null;
                 return toReturn;
             }
         }
@@ -54,12 +54,14 @@ public class ThingContainer {
     }
 
     public ColorfulThing remove(Enum color){
-        for (int i = 0; i < colorfulThings.length; i++ ){
-            if (colorfulThings[i].getColor().name().equalsIgnoreCase(color.name())){
-                ColorfulThing toRemove = colorfulThings[i];
-                if (i < colorfulThings.length - 2){
-                    colorfulThings[i] = colorfulThings[i+1];
-                    colorfulThings[i + 1] = null;
+        for (int i = 0; i < things.length; i++ ){
+            if (things[i].getProperties().get(0).equalsIgnoreCase(color.name())){
+                ColorfulThing toRemove = (ColorfulThing)things[i];
+                if (i < things.length - 2){
+                    things[i] = things[i+1];
+                    things[i + 1] = null;
+                } else {
+                    things[i] = null;
                 }
 
                 return toRemove;
@@ -70,11 +72,11 @@ public class ThingContainer {
     }
 
     public ColorfulThing remove(ColorfulThing colorfulThingToRemove){
-        for(int i = 0; i < colorfulThings.length; i++){
-            if (colorfulThings[i].equals(colorfulThingToRemove)){
-                if (i < colorfulThings.length - 2){
-                    colorfulThings[i] = colorfulThings[i +1];
-                    colorfulThings[i+1] = null;
+        for(int i = 0; i < things.length; i++){
+            if (things[i].equals(colorfulThingToRemove)){
+                if (i < things.length - 2){
+                    things[i] = things[i +1];
+                    things[i+1] = null;
                 }
 
                 return colorfulThingToRemove;

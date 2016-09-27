@@ -26,10 +26,10 @@ public class PolyLab2 {
         thingContainer0.remove(colorfulThing0);
         thingContainer0.printThings();
 
-        thingContainer0.getColorfulThings()[0] = colorfulThing0;
-        thingContainer0.getColorfulThings()[1] = colorfulThing1;
+        thingContainer0.getThings()[0] = colorfulThing0;
+        thingContainer0.getThings()[1] = colorfulThing1;
 
-        ThingContainer thingContainer1 = new ThingContainer(thingContainer0.getColorfulThings());
+        ThingContainer thingContainer1 = new ThingContainer(thingContainer0.getThings());
         thingContainer1.printThings();
 
 
