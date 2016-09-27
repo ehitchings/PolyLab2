@@ -68,6 +68,25 @@ public class ThingContainerTest {
 
     }
 
+    @Test
+    public void removeCoatedThingTest(){
+        ThingContainer thingContainer = new ThingContainer(3);
+        CoatedThing ct1 = new CoatedThing(ColorfulThing.Color.PINK, CoatedThing.Texture.METALLIC);
+        CoatedThing ct2 = new CoatedThing(ColorfulThing.Color.BLACK, CoatedThing.Texture.GLOSSY);
+        CoatedThing ct3 = new CoatedThing(ColorfulThing.Color.PURPLE, CoatedThing.Texture.MATTE);
+        thingContainer.add(ct1);
+        thingContainer.add(ct2);
+        thingContainer.add(ct3);
+        assertEquals("Did not return null when texture was not found", null, thingContainer.remove(CoatedThing.Texture.SPECKLED));
+        thingContainer.remove(CoatedThing.Texture.MATTE);
+        assertEquals("Coated Thing at index 2 was not removed", null, thingContainer.getThings()[2]);
+        assertEquals("Coated Thing returned did not equal argument", ct1, thingContainer.remove(ct1));
+        System.out.println(thingContainer.getThings());
+        assertEquals("Did not actually remove Coated Thing", ct2, thingContainer.getThings()[0]);
+
+    }
+
+
 
 
 }

@@ -53,7 +53,7 @@ public class ThingContainer {
 
     }
 
-    public ColorfulThing remove(Enum color){
+    public ColorfulThing remove(ColorfulThing.Color color){
         for (int i = 0; i < things.length; i++ ){
             if (things[i].getProperties().get(0).equalsIgnoreCase(color.name())){
                 ColorfulThing toRemove = (ColorfulThing)things[i];
@@ -77,6 +77,8 @@ public class ThingContainer {
                 if (i < things.length - 2){
                     things[i] = things[i +1];
                     things[i+1] = null;
+                } else {
+                    things[i] = null;
                 }
 
                 return colorfulThingToRemove;
@@ -85,6 +87,42 @@ public class ThingContainer {
         System.out.println("The Colorful Thing was not in the array");
         return null;
     }
+
+    public CoatedThing remove(CoatedThing.Texture texture){
+        for(int i = 0; i < things.length; i++){
+            if(things[i].getProperties().get(1).equalsIgnoreCase(texture.name())){
+                CoatedThing toReturn = (CoatedThing)things[i];
+                if (i < things.length - 2){
+                    things[i] = things[i+1];
+                    things[i+1] = null;
+                } else {
+                    things[i] = null;
+                }
+                return toReturn;
+            }
+
+        }
+        System.out.println("No Coated Things of that texture");
+        return null;
+    }
+
+    public CoatedThing remove(CoatedThing coatedThingToRemove){
+        for(int i = 0; i < things.length; i++ ){
+            if(things[i].equals(coatedThingToRemove)){
+                if (i < things.length - 2){
+                    things[i] = things[i +1];
+                    things[i+1] = null;
+                } else {
+                    things[i] = null;
+                }
+                return coatedThingToRemove;
+            }
+        }
+        System.out.println("The Coated Thing was not in the array");
+        return null;
+    }
+
+
 
 
 

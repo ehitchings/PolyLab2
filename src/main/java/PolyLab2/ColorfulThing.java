@@ -22,6 +22,7 @@ public class ColorfulThing implements Thing{
 
     @Override
     public String toString(){
+
         return color.toString();
     }
 

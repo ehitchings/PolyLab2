@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6130937a-e2b9-4bb0-ab48-929505296c9d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PolyLab2/BoringThing.java" afterPath="$PROJECT_DIR$/src/main/java/PolyLab2/BoringThing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PolyLab2/ColorfulThing.java" afterPath="$PROJECT_DIR$/src/main/java/PolyLab2/ColorfulThing.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PolyLab2/PolyLab2.java" afterPath="$PROJECT_DIR$/src/main/java/PolyLab2/PolyLab2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PolyLab2/ThingContainer.java" afterPath="$PROJECT_DIR$/src/main/java/PolyLab2/ThingContainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PolyLab2/ColorfulThingTest.java" afterPath="$PROJECT_DIR$/src/test/java/PolyLab2/ColorfulThingTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PolyLab2/ThingContainerTest.java" afterPath="$PROJECT_DIR$/src/test/java/PolyLab2/ThingContainerTest.java" />
     </list>
     <ignored path="PolyLab2.iws" />
@@ -43,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PolyLab2.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PolyLab2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/PolyLab2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+            <state relative-caret-position="240">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -67,16 +65,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColorfulThing.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ColorfulThing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/ColorfulThing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+            <state relative-caret-position="495">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#501#509#0" expanded="true" />
+                <element signature="e#502#510#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoatedThing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/CoatedThing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoatedThingTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PolyLab2/CoatedThingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#436#444#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,8 +112,8 @@
       <file leaf-file-name="ThingContainer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/ThingContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="362">
+              <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
               <folding>
                 <element signature="e#199#200#0" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
@@ -111,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/PolyLab2/ColorfulThingTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="122" selection-start-line="28" selection-start-column="122" selection-end-line="28" selection-end-column="122" />
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="122" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#779#787#0" expanded="true" />
@@ -123,8 +150,8 @@
       <file leaf-file-name="ThingContainerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PolyLab2/ThingContainerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+            <state relative-caret-position="427">
+              <caret line="73" column="98" selection-start-line="73" selection-start-column="98" selection-end-line="73" selection-end-column="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +164,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -155,12 +182,14 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/PolyLab2/Thing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PolyLab2/ColorfulThing.java" />
         <option value="$PROJECT_DIR$/src/main/java/PolyLab2/BoringThing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PolyLab2/PolyLab2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PolyLab2/ThingContainerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PolyLab2/ColorfulThingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PolyLab2/CoatedThingTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/PolyLab2/ThingContainer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PolyLab2/ThingContainerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PolyLab2/ColorfulThing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PolyLab2/CoatedThing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PolyLab2/PolyLab2.java" />
       </list>
     </option>
   </component>
@@ -321,59 +350,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.ThingContainerTest.removeTestByColor">
-    <configuration default="false" name="ColorfulThingTest.getColorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PolyLab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PolyLab2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PolyLab2" />
-      <option name="MAIN_CLASS_NAME" value="PolyLab2.ColorfulThingTest" />
-      <option name="METHOD_NAME" value="getColorTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ColorfulThingTest.getPropertiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PolyLab2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PolyLab2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PolyLab2" />
-      <option name="MAIN_CLASS_NAME" value="PolyLab2.ColorfulThingTest" />
-      <option name="METHOD_NAME" value="getPropertiesTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.PolyLab2">
     <configuration default="false" name="ThingContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -424,6 +401,78 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CoatedThingTest.getPropertiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PolyLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PolyLab2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PolyLab2" />
+      <option name="MAIN_CLASS_NAME" value="PolyLab2.CoatedThingTest" />
+      <option name="METHOD_NAME" value="getPropertiesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ThingContainerTest.removeCoatedThingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PolyLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PolyLab2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PolyLab2" />
+      <option name="MAIN_CLASS_NAME" value="PolyLab2.ThingContainerTest" />
+      <option name="METHOD_NAME" value="removeCoatedThingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PolyLab2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PolyLab2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="PolyLab2.PolyLab2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PolyLab2" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -833,23 +882,28 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ColorfulThingTest.getColorTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ColorfulThingTest.getPropertiesTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ThingContainerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ThingContainerTest.removeTestByColor" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ThingContainerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ThingContainerTest.removeTestByColor" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CoatedThingTest.getPropertiesTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ThingContainerTest.removeCoatedThingTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PolyLab2" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ThingContainerTest.removeTestByColor" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ThingContainerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ColorfulThingTest.getPropertiesTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ColorfulThingTest.getColorTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.PolyLab2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ThingContainerTest.removeCoatedThingTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ThingContainerTest.removeTestByColor" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CoatedThingTest.getPropertiesTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ThingContainerTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -858,35 +912,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1474924917237</updated>
-      <workItem from="1474924918589" duration="4740000" />
+      <workItem from="1474924918589" duration="8087000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ColorfulThingTest_getColorTest - 2016.09.27 at 08h 38m 42s.xml">
-      <configuration name="ColorfulThingTest.getColorTest" configurationId="JUnit" />
+    <history-entry file="CoatedThingTest_getPropertiesTest - 2016.09.27 at 10h 56m 31s.xml">
+      <configuration name="CoatedThingTest.getPropertiesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ColorfulThingTest_getPropertiesTest - 2016.09.27 at 08h 43m 23s.xml">
-      <configuration name="ColorfulThingTest.getPropertiesTest" configurationId="JUnit" />
+    <history-entry file="ThingContainerTest_removeCoatedThingTest - 2016.09.27 at 11h 13m 50s.xml">
+      <configuration name="ThingContainerTest.removeCoatedThingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThingContainerTest - 2016.09.27 at 08h 43m 53s.xml">
-      <configuration name="ThingContainerTest" configurationId="JUnit" />
+    <history-entry file="ThingContainerTest_removeCoatedThingTest - 2016.09.27 at 11h 15m 02s.xml">
+      <configuration name="ThingContainerTest.removeCoatedThingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThingContainerTest - 2016.09.27 at 08h 44m 58s.xml">
-      <configuration name="ThingContainerTest" configurationId="JUnit" />
+    <history-entry file="ThingContainerTest_removeCoatedThingTest - 2016.09.27 at 11h 16m 20s.xml">
+      <configuration name="ThingContainerTest.removeCoatedThingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThingContainerTest - 2016.09.27 at 08h 47m 08s.xml">
-      <configuration name="ThingContainerTest" configurationId="JUnit" />
+    <history-entry file="ThingContainerTest_removeCoatedThingTest - 2016.09.27 at 11h 17m 22s.xml">
+      <configuration name="ThingContainerTest.removeCoatedThingTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThingContainerTest - 2016.09.27 at 08h 48m 10s.xml">
-      <configuration name="ThingContainerTest" configurationId="JUnit" />
+    <history-entry file="ThingContainerTest_removeCoatedThingTest - 2016.09.27 at 11h 17m 56s.xml">
+      <configuration name="ThingContainerTest.removeCoatedThingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThingContainerTest_removeCoatedThingTest - 2016.09.27 at 11h 19m 43s.xml">
+      <configuration name="ThingContainerTest.removeCoatedThingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThingContainerTest_removeCoatedThingTest - 2016.09.27 at 11h 21m 43s.xml">
+      <configuration name="ThingContainerTest.removeCoatedThingTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ThingContainerTest_removeTestByColor - 2016.09.27 at 08h 53m 54s.xml">
       <configuration name="ThingContainerTest.removeTestByColor" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ThingContainerTest_removeTestByColor - 2016.09.27 at 11h 18m 41s.xml">
+      <configuration name="ThingContainerTest.removeTestByColor" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4740000" />
+    <option name="totallyTimeSpent" value="8087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="70" width="1846" height="896" extended-state="0" />
@@ -899,7 +962,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -951,6 +1014,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/Thing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PolyLab2/ThingContainerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="73" column="98" selection-start-line="73" selection-start-column="98" selection-end-line="73" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PolyLab2/ColorfulThingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#779#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/ThingContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PolyLab2/CoatedThingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/ColorfulThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#502#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/CoatedThing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" column="76" selection-start-line="33" selection-start-column="76" selection-end-line="33" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/BoringThing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -965,64 +1108,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/PolyLab2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        <state relative-caret-position="240">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PolyLab2/ThingContainerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PolyLab2/ColorfulThingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="122" selection-start-line="28" selection-start-column="122" selection-end-line="28" selection-end-column="122" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#779#787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/Thing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/ThingContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PolyLab2/ColorfulThing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#501#509#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
